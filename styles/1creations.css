@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+input[type="text"]{
+    border-radius: 5px;
+    border: solid gray 1px;
+}
+
+body{
+    width: 100vw;
+}
+
+img{
+    height: 5vh;
+    width: 2vw;
+}
+
+.main{
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* STYLES NAV-BAR */
+
+.left-nav{   
+    background-color: white;
+    border: solid rgb(220, 211, 211) 3.5px;
+    border-radius: 15px;
+    width: 20%;
+    /* overflow: hidden; */
+}
+
+.logoOdc{
+    height: 15vh;
+    width: 10vw;
+    margin-left: 10%;
+    margin-top: 5%;
+    border: solid 1px whitesmoke;
+}
+
+.item1,.item2,.item3,.item4,.item5,.item6,.item7{
+    margin: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.item1,.item2,.item3,.item4,.item5,.item6,.item7,
+label{
+    margin-right: 45%;
+}
+
+
+
+
+
+
+/* STYLE CONTENU DROITE */
+.right-contain{
+    border: solid black 2px;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.contain-top{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border: solid rgb(244, 240, 240) 2px;
+    border-radius: 8px;
+}
+
+.left-top{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2%; */
+}
+
+
+.burger,.icon-app,.recherche{
+    margin: 10px;
+}
+
+.left-top input[type="text"]{
+    height: 5vh;
+    border-radius: 11px;
+    background-color: aliceblue;
+    width: 15vw;
+}
+.recherche-img{
+    position: relative;
+    z-index: 1;
+    height: 2vh;
+    right: 50px;
+    top: 17px;
+}
+
+.right-top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.today-contain,.logo-right,.current-user{
+    margin: 10px;
+}
+
+.today-contain{
+    color: teal;
+    border: solid 1px teal;
+    width: 10vw;
+}
+.today{
+    position: relative;
+    top: -10px;
+}
+.logo-right{
+    background-color: rgb(161, 162, 164);
+    width: 3dvw;
+    border-radius: 50%;
+}
+
+.right-top select{
+    border: none;
+    background-color: whitesmoke;
+    font-size: 1.5rem;
+}
+.active-page{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.promotion{
+    position: relative;
+    right: 18%;
+    font-size: 1.5rem;
+}
+.creating{
+    position: relative;
+    left: 15%;
+}
+
+.champs-saisie{
+    background-color: white;
+    margin: 2% 2%;
+    border-radius: 11px;
+}
+
+.champs-saisie .obligatoire{
+    color: red;
+    position: relative;
+    left: 60%;
+    top: -35%;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.current-page{
+    display: flex;
+    margin: 30px auto;
+}
+.active-pageNum{
+    margin-top: 10px;
+    background-color: teal;
+    color: white;
+    size: 1.2rem;
+    border-radius: 50%;
+    height: 5vh;
+    width: 3vw;
+    text-align: center;
+}
+
+.current-page label{
+    position: relative;
+    top: 15px;
+    margin-left: 2%;
+    font-weight: 900;
+}
+.champ-saisie1{
+    margin: auto 20px;
+    padding: 10px;
+}
+.champ-saisie1 label{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.champ-saisie1 input[type="text"]{
+    height: 4vh;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 1.2rem;
+}
+.obligatoire1{
+    position: relative;
+    left: 190px;
+    top: -30px;
+    color: red;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.champ-saisie2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.champ-saisie2 input[type="text"]{
+    height: 4vh;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 1.2rem;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.new-ref{
+    background-color: blue;
+    color: white;
+    /* font-size: 1.5rem; */
+    height: 4vh;
+    border: solid blue 2px;
+    width: 10vw;
+    text-align: center;
+    position: relative;
+    top: -12px;
+    right: 100px;
+    cursor: pointer; 
+}
+
+.new-promo{
+    background-color: teal;
+    color: white;
+    /* font-size: 1.5rem; */
+    height: 4vh;
+    border: solid teal 2px;
+    width: 10vw;
+    text-align: center;
+    position: relative;
+    top: -12px;
+    left: 100px;
+    cursor: pointer; 
+}
+.current-page2{
+    display: flex;
+    margin: 30px auto;
+}
+.current-pageNum2{
+    margin-top: 10px;
+    background-color: white;
+    color: teal;
+    size: 1.2rem;
+    border: solid 1px black;
+    border-radius: 50%;
+    height: 5vh;
+    width: 3vw;
+    text-align: center;
+}
+
+.current-page2 label{
+    position: relative;
+    top: 15px;
+    margin-left: 2%;
+    font-weight: 900;
+}
+
+.right-footer{
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 10vh;
+}
+
+.copyright{
+    margin-left: 300px;
+}
+
+.params{
+    margin-left: 350px;
+    background-color: rgb(149, 192, 192);
+    color: white;
+    border-radius: 50%;
+}
