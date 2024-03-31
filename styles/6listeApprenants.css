@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none; 
+}
+
+body{
+    background-color: rgb(212, 212, 208);
+}
+
+img{ 
+    height: 5vh;
+    width: 2vw; 
+}
+
+.top1{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.page-name{
+    position: relative;
+    right: 200px;
+}
+
+
+.page-level{
+    position: relative;
+    left: 200px;
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 2px;
+}
+
+.top2{
+    margin: 20px;
+    height: 8vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 11px;
+}
+.top2-1{
+    margin-top: 15px;
+    position: relative;
+    right: 200px;
+    display: flex;
+}
+.top2-2{
+    margin-top: 10px;
+    position: relative;
+    right: -200px;
+    display: flex;
+}
+
+.contain{
+    margin: -28px 2%;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.head1{
+    margin: 20px;
+    margin-top: 5%;
+    display: flex;
+}
+.numero{
+    background-color: teal;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 50%;
+    margin: 5px;
+    height: 5vh;
+    width: 3vw;
+}
+.appr{
+    font-weight: 900;
+    margin-top: 15px;
+}
+
+.head2{
+    display: flex;
+    justify-content: space-around;
+}
+.nombre-apprenants{
+    margin-right: 28%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.buttons{
+    display: flex;
+}
+.new{
+    background-color: teal;
+    color: white;
+    font-weight: 900;
+    border: none;
+    height: 5vh;
+    width: 6vw;
+    border-radius: 7px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.insert{
+    background-color: orange;
+    color: white;
+    font-weight: 900;
+    border: none;
+    height: 5vh;
+    width: 9vw;
+    border-radius: 7px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
+.fichier{
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: 900;
+    border: none;
+    height: 5vh;
+    width: 9vw;
+    border-radius: 7px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.exclus{
+    background-color: blue;
+    color: white;
+    font-weight: 900;
+    border: none;
+    height: 5vh;
+    width: 8    vw;
+    border-radius: 7px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
+.filtre{
+    margin-left: 5%;
+}
+
+.search-img{
+    position: relative;
+    left: 8px;
+    top: 35px;
+}
+.filtre input[type="text"]{
+    width: 100%;
+    height: 6vh;
+    border: solid 1px rgb(195, 194, 194);
+    padding-left: 50px;
+    border-radius: 12px;
+}
+.file-logo{
+    margin-left: 7%;
+    padding: 10px;
+}
+.entete{
+    background-color: aliceblue;
+    height: 6vh;
+    text-align: center;
+}
+.entete li{
+    padding-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.donnees1 , .donnees2, .donnees3, .donnees4, .donnees5, .donnees6, .donnees7{
+    display: flex;
+    justify-content: space-around;
+}
+.profil{
+    margin: 5px;
+}
+
+.contain-footer{
+    position: relative;
+    left: 95%;
+}
