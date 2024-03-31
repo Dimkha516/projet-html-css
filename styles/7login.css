@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(226, 220, 220);
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 15vw;
+    height: 17vh;
+}
+.hide-pass{
+    position: relative;
+    right: -210px;
+    top: -40px;
+    height: 2vh;
+}
+.main{
+    margin: 5% auto;
+    text-align: center;
+    width: 80%;
+}
+
+.error{
+    background-color: pink;
+    font-size: 1.7rem;
+    margin: 10px;
+    height: 6vh;
+    text-align: center;
+    padding-top: 5px;
+}
+.formulaire{
+    background-color: white;
+    border-radius: 11px;
+    padding: 10px;
+    margin: 0 auto;
+    width: 50%;
+    height: 50vh;
+    padding: 10px;
+}
+.formulaire label{
+    position: relative;
+    font-weight: 900;
+    font-size: 1.2rem;
+    left: -200px;
+}
+.formulaire .request{
+    position: relative;
+    color: red;
+    font-weight: 900;
+}
+
+.formulaire input[type="text"],input[type="password"]{
+    margin: 10px;
+    height: 7vh;
+    width: 95%;
+    padding-left: 2%;
+    border: solid rgb(201, 200, 197) 2px;
+    border-radius: 15px;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+
+.form-options{
+    margin: 10px auto;
+    text-align: center;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.login{
+    margin-top: 20px;
+}
+
+.log{
+    background-color: teal;
+    color: white; 
+    width: 12vw;
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+}
