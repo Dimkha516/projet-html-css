@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/2referentiels.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <!-- PARTIE BAR-NAVIGATION -->
+        <div class="left-nav">
+            <img src="../medias/logo-odc3.png" class="logoOdc" alt="logoOdc"> <br>
+
+            <div class="item1" style="margin-top: 1%;">
+                <img src="../medias/fenetre.png" id="fenetre" alt="">
+                <label for="fenetre" style="margin-top: 30%;">MENU</label> <br>
+            </div>
+
+            <div class="item2">
+                <img src="../medias/barre-decalee.png" alt="dashboard" id="dashboard">
+                <label for="dashbord">
+                    Dashboard
+                </label> <br>
+            </div>
+
+
+            <div class="item3">
+                <img src="../medias/complet.png" id="list-Promo" alt="">
+                <label for="list-Promo">Promos</label> <br>
+            </div>
+
+            <div class="item4">
+                <img src="../medias/utilisateur.png" id="users" alt="">
+                <label for="users">Utilisateur</label> <br>
+            </div>
+
+            <div class="item5">
+                <img src="../medias/utilisateur.png" id="visiteurs" alt="">
+                <label for="visiteurs">Visiteurs</label> <br>
+            </div>
+
+
+            <div class="item6">
+                <img src="../medias/utilisateur.png" id="presence" alt="">
+                <label for="presence">Présence</label> <br>
+            </div>
+
+
+            <div class="item7">
+                <img src="../medias/calendrier-horloge.png" id="events" alt="">
+                <label for="events">Evénements</label>
+            </div>
+
+        </div>
+
+        <!-- PARTIE DROITE -->
+
+        <div class="right-contain">
+            <div class="contain-top">
+
+                <div class="left-top">
+                    <img src="../medias/menu-burger.png" class="burger" alt="">
+                    <img src="../medias/applications.png" class="icon-app" alt="">
+                    <input type="text" class="recherche" placeholder="Rechercher par matricule"> <span><img
+                            src="../medias/cherche.png" class="recherche-img" alt=""></span>
+                </div>
+
+
+                <div class="right-top">
+                    <div class="today-contain">
+                        <img src="../medias/calendrier-horloge.png" alt=""> <span class="today">20 March 2024</span>
+                    </div>
+                    <div class="logo-right">
+                        <p></p>
+                    </div>
+                    <div class="current-user">
+                        <h3 style="color: teal;">SUPER_ADMIN</h3>
+                        <select>
+                            <option value="adm">Admin Admin</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="active-page">
+                <h5 class="promotion">Réferentiels</h5>
+                <h5 class="creating">Réferentiels >> Liste </h5>
+            </div>
+
+            <div class="champ-principal">
+
+                <div class="referentiels">
+
+                    <div class="dev-web">
+                        <div class="ref-top">
+                            <img src="../medias/menus.png" alt="">
+                        </div>
+                        <div class="ref-img">
+                            <img src="../medias/classes.png" class="classe-img" alt="">
+                        </div>
+                        <div class="ref-nom-etat">
+                           <h3>Dev Web/mobile</h3>
+                           <h3 style="color: green;">Active</h3> 
+                        </div>
+
+                    </div>
+
+                    <div class="ref-dig">
+                        <div class="ref-top">
+                            <img src="../medias/menus.png" alt="">
+                        </div>
+                        <div class="ref-img">
+                            <img src="../medias/classes.png" class="classe-img" alt="">
+                        </div>
+                        <div class="ref-nom-etat">
+                           <h3>Réferent Digital</h3>
+                           <h3 style="color: green;">Active</h3> 
+                        </div>
+                    </div>
+
+                    <div class="aws">
+                        <div class="ref-top">
+                            <img src="../medias/menus.png" alt="">
+                        </div>
+                        <div class="ref-img">
+                            <img src="../medias/classes.png" class="classe-img" alt="">
+                        </div>
+                        <div class="ref-nom-etat">
+                           <h3>Aws</h3>
+                           <h3 style="color: green;">Active</h3> 
+                        </div>
+                    </div>
+
+                    <div class="hackeuse">
+                        <div class="ref-top">
+                            <img src="../medias/menus.png" alt="">
+                        </div>
+                        <div class="ref-img">
+                            <img src="../medias/classes.png" class="classe-img" alt="">
+                        </div>
+                        <div class="ref-nom-etat">
+                           <h3>Hackeuse</h3>
+                           <h3 style="color: green;">Active</h3> 
+                        </div>
+                    </div>
+
+                    <div class="dev-data">
+                        <div class="ref-top">
+                            <img src="../medias/menus.png" alt="">
+                        </div>
+                        <div class="ref-img">
+                            <img src="../medias/classes.png" class="classe-img" alt="">
+                        </div>
+                        <div class="ref-nom-etat">
+                           <h3>Developpement Data</h3>
+                           <h3 style="color: green;">Active</h3> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="formulaire">
+                    <h2 style="text-align: center;">Nouveau Referentiel</h2>
+                     
+                    <div class="lib">
+                        <label for="ref-lib">Libelle</label>
+                        <input type="text" class="ref-lib" placeholder="       Entrez le libelle">
+                        <img src="../medias/utilisateur2.png" class="user" alt="">
+                    </div>
+                    <!--  -->
+                    <div class="desc">
+                        <label for="ref-desc">Description</label>
+                        <input type="text" class="ref-desc" placeholder="         Entrez la Description">
+                        <img src="../medias/utilisateur2.png" class="user" alt="">
+                    </div>
+                    <!--  -->
+                    <input type="submit" id="save" value="Enregistrer">
+                </div>
+            </div>
+
+
+            <div class="right-footer">
+                <h4 class="copyright">© Sonatel Academy</h4>
+                <img src="../medias/reglages .png" class="params" alt="">   
+            </div>
+
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
