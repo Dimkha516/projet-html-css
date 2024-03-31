@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/8presences.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <!-- PARTIE BAR-NAVIGATION -->
+        <div class="left-nav">
+            <img src="../medias/logo-odc3.png" class="logoOdc" alt="logoOdc"> <br>
+
+            <div class="item1" style="margin-top: 1%;">
+                <img src="../medias/fenetre.png" id="fenetre" alt="">
+                <label for="fenetre" style="margin-top: 30%;">MENU</label> <br>
+            </div>
+
+            <div class="item2">
+                <img src="../medias/barre-decalee.png" alt="dashboard" id="dashboard">
+                <label for="dashbord">
+                    Dashboard
+                </label> <br>
+            </div>
+
+
+            <div class="item3">
+                <img src="../medias/complet.png" id="list-Promo" alt="">
+                <label for="list-Promo">Promos</label> <br>
+            </div>
+
+            <div class="item4">
+                <img src="../medias/utilisateur.png" id="users" alt="">
+                <label for="users">Utilisateur</label> <br>
+            </div>
+
+            <div class="item5">
+                <img src="../medias/utilisateur.png" id="visiteurs" alt="">
+                <label for="visiteurs">Visiteurs</label> <br>
+            </div>
+
+
+            <div class="item6">
+                <img src="../medias/utilisateur.png" id="presence" alt="">
+                <label for="presence">Présence</label> <br>
+            </div>
+
+
+            <div class="item7">
+                <img src="../medias/calendrier-horloge.png" id="events" alt="">
+                <label for="events">Evénements</label>
+            </div>
+
+
+        </div>
+        <!--  -->
+
+        <!--PARTIE CONTENU-DROITE  -->
+        <div class="right-contain">
+
+
+            <div class="contain-top">
+
+                <div class="left-top">
+                    <img src="../medias/menu-burger.png" class="burger" alt="">
+                    <img src="../medias/applications.png" class="icon-app" alt="">
+                    <input type="text" class="recherche" placeholder="Rechercher par matricule"> <span><img
+                            src="../medias/cherche.png" class="recherche-img" alt=""></span>
+                </div>
+
+
+                <div class="right-top">
+                    <div class="today-contain">
+                        <img src="../medias/calendrier-horloge.png" alt=""> <span class="today">20 March 2024</span>
+                    </div>
+                    <div class="logo-right">
+                        <p></p>
+                    </div>
+                    <div class="current-user">
+                        <h3 style="color: teal;">SUPER_ADMIN</h3>
+                        <select>
+                            <option value="adm">Admin Admin</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--  -->
+
+
+            <div class="active-page">
+                <h5 class="promotion">Présence</h5>
+                <h5 class="creating">Présences >> Liste </h5>
+            </div>
+
+            <div class="contenu-principal">
+
+
+                <div class="filter">
+                    <div>
+                        <select class="status">
+                            <option value="stat">Status</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <select class="referentiel">
+                            <option value="ref">referentiels</option>
+                            <option value="web">Dev-Web</option>
+                            <option value="ref-dig">Ref-Dig</option>
+                            <option value="data">Dev-Data</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <input type="date">
+                        <!-- <img src="../medias/calendrier-horloge.png" alt=""> -->
+                    </div>
+
+                    <div>
+                        <button class="refresh">Rafraichir</button>
+                    </div>
+
+                </div>
+
+                <div class="entetes">
+                    <ul>
+                        <li>Matricule</li>
+                        <li>Nom</li>
+                        <li>Prenom</li>
+                        <li>Téléphone</li>
+                        <li>Reférentiel</li>
+                        <li>Heure d'arrivée</li>
+                        <li>Status</li>
+                    </ul>
+                </div>
+
+                <div class="infos">
+                    <ul>
+                        <li class="matric">P6_DEVDAT_2024-129</li>
+                        <li class="nom">FAYE</li>
+                        <li class="prenom">ibrahima</li>
+                        <li class="phone">77337833</li>
+                        <li class="refer">Developpement Data</li>
+                        <li class="heure" style="color: green;">06:49</li>
+                        <li class="status" style="color: blue;background-color: aliceblue;">PRESENT</li>
+                    </ul>
+                    <ul>
+                        <li class="matric">P6_DEVDAT_2024-129</li>
+                        <li class="nom">Khadim</li>
+                        <li>Deme</li>
+                        <li>77337833</li>
+                        <li>Referent Digital</li>
+                        <li style="color: red;">09:34</li>
+                        <li style="color: blue;background-color: aliceblue;">PRESENT</li>
+                    </ul>
+                    <ul>
+                        <li class="matric">P6_DEVDAT_2024-129</li>
+                        <li class="nom">kiné</li>
+                        <li>Diop</li>
+                        <li>77337833</li>
+                        <li>Developpement Web</li>
+                        <li style="color: green;">07:48</li>
+                        <li style="color: blue;background-color: aliceblue;">PRESENT</li>
+                    </ul>
+                    <ul>
+                        <li class="matric">P6_DEVDAT_2024-129</li>
+                        <li class="nom">Fall</li>
+                        <li>Khady</li>
+                        <li>77337833</li>
+                        <li>Referent Digital</li>
+                        <li style="color: green;">07:49</li>
+                        <li style="color: blue;background-color: aliceblue;">PRESENT</li>
+                    </ul>
+                    <ul>
+                        <li class="matric">P6_DEVDAT_2024-129</li>
+                        <li class="nom">FAYE</li>
+                        <li>ibrahima</li>
+                        <li>77337833</li>
+                        <li>Developpement Data</li>
+                        <li style="color: green;">06:49</li>
+                        <li style="color: blue;background-color: aliceblue;">PRESENT</li>
+                    </ul>
+                    <ul>
+                        <li class="matric">P6_DEVDAT_2024-129</li>
+                        <li class="nom">FAYE</li>
+                        <li>ibrahima</li>
+                        <li>77337833</li>
+                        <li>Developpement Data</li>
+                        <li style="color: green;">06:49</li>
+                        <li style="color: blue;background-color: aliceblue;">PRESENT</li>
+                    </ul>
+                    <ul>
+                        <li class="matric">P6_DEVDIG_2024-130</li>
+                        <li class="nom">Makhtar</li>
+                        <li>Fall</li>
+                        <li>77337833</li>
+                        <li>Dev Web/Mobile</li>
+                        <li>-</li>
+                        <li style="color: red;background-color: rgb(247, 174, 161);">ABSENT</li>
+                    </ul>
+                    <ul>
+                        <li class="matric">P6_DEVDAT_2024-129</li>
+                        <li class="nom">FAYE</li>
+                        <li>ibrahima</li>
+                        <li>77337833</li>
+                        <li>Developpement Data</li>
+                        <li>-</li>
+                        <li style="color: red;background-color: rgb(247, 174, 161);">ABSENT</li>
+                    </ul>
+                    <ul>
+                        <li class="matric">P6_DEVDAT_2024-129</li>
+                        <li class="nom">FAYE</li>
+                        <li>ibrahima</li>
+                        <li>77337833</li>
+                        <li>Developpement Data</li>
+                        <li style="color: green;">06:49</li>
+                        <li style="color: red;background-color: rgb(247, 174, 161);">ABSENT</li>
+                    </ul>
+                    <ul>
+                        <li class="matric">P6_DEVDAT_2024-129</li>
+                        <li class="nom"> FAYE</li>
+                        <li>ibrahima</li>
+                        <li>77337833</li>
+                        <li>Developpement Data</li>
+                        <li style="color: green;">06:49</li>
+                        <li style="color: red;background-color: rgb(247, 174, 161);">ABSENT</li>
+                    </ul>
+                </div>
+            
+            <div class="page-level">
+              
+                <div class="active-level">
+                    <select style="width: 8vw;">
+                        <option>Item par page 10</option>
+                    </select>
+                </div>
+                
+                <div class="levels" style="margin-top: 35px;">
+                    <h5 style="font-size: 1.2rem;">111-120 of 128  |< < ></h5>
+                </div>
+            </div>
+
+            <img src="../medias/reglages .png" alt="" class="params">
+                
+            </div>
+        </div>
+
+</html>
